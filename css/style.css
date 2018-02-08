@@ -8,7 +8,7 @@ body {
 #container {
   background-color: grey;
   overflow: auto;
-  min-height: 400px;
+  min-height: 500px;
   width: 60%;
   margin: 50px auto;
 }
@@ -39,6 +39,10 @@ header h1 {
   border-bottom: 1px #cccccc dotted;
 }
 
+.shout span{
+  color: #aaaaaa;
+}
+
 #input {
   width: 90%;
   min-height: 80px;
@@ -48,8 +52,20 @@ header h1 {
 
 #input input[type='text'] {
   height: 25px;
-  width: 25%;
+  width: 49.7%;
   padding: 3px;
   border-bottom: 20px;
   border: #666666 solid 1px;
+}
+
+#input .shout-btn {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #input input[type='text'] {
+    width: 98.7%;
 }
